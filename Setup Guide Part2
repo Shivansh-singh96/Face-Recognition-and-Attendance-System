@@ -1,0 +1,74 @@
+Project Agumentation/
+│── Attendance.csv
+│── Encodefile.p
+│── encode_students.py
+│── face_recognition.log
+│── face_recognition_gui.py
+│── face_recognition_gui2.py
+│── Service key.json
+│── tempCodeRunnerFile.py
+│
+├── logo/
+│    └── logo.png
+│
+└── Students/
+     ├── 1042.jpg
+     ├── 1101.jpg
+     ├── 1132.png
+     ├── 1145.jpg
+     └── 1147.jpg
+
+
+1. Install Required Tools
+Python (3.8–3.11 recommended)
+Download from Python.org
+
+Visual Studio Installer → Desktop Development with C++
+Needed because dlib (used by face_recognition) compiles C++ extensions.
+
+CMake (>= 3.22)
+Download from CMake.org
+
+Git (optional but useful for cloning repos).
+
+
+2. Create & Activate Virtual Environment
+python -m venv venv
+venv\Scripts\activate
+
+
+3. Install Python Dependencies
+Inside your Project Agumentation/ folder, run:
+pip install opencv-python
+pip install numpy
+pip install pandas
+pip install cmake
+pip install dlib
+pip install face-recognition
+pip install pillow
+pip install tk
+
+
+
+4. Project Assets
+Student Images go into Students/.
+Logo goes into logo/logo.png.
+Attendance.csv will be updated automatically.
+Encodefile.p stores encoded face data.
+
+
+
+5. Run the System
+
+Encode student faces first:
+python encode_students.py
+→ This generates Encodefile.p.
+
+
+Launch face recognition GUI:
+python face_recognition_gui.py
+
+Attendance will be marked in Attendance.csv.
+
+
+
