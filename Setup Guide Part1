@@ -1,0 +1,30 @@
+Create folder name Project Agumentation 
+Project Agumentation/
+│── Attendance.csv
+│── encode_student.py
+│── face_recognition.py
+│
+├── Students/
+│     ├── student1.jpg
+│     ├── student2.jpg
+│     └── ... (all student images)
+│
+└── logo/
+      └── logo.png
+Step 1: Create Main Project Folder
+Create a folder named:
+Project Agumentation
+
+Step 2: Place Main Files Inside
+Inside Project Agumentation, store the following three files:
+Attendance.csv
+encode_student.py
+face_recognition.py
+
+Step 3: Create Subfolders
+Inside Project Agumentation, create two additional folders:
+Students/ → Store all student images here.
+logo/ → Store your logo image here.
+
+Step 4: Update File Paths in Code
+In both encode_student.py and face_recognition.py, make sure all paths match this folder structure. Or your own folder structure. 
